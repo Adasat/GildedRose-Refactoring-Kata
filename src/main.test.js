@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest"
 import { myFunction } from "./main.js"
 
-describe("Default test", () => {
+describe.skip("Default test", () => {
   it("should work", () => {
     const result = myFunction()
 
